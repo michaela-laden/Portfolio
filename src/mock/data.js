@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I have only done a handful of web projects, but this year I am determined to get many more projects under my belt that I can show off. This portfolio will show all of my amazing and, inevitably, not so amazing work. Hopefully, over time I will be able to see how much I have progressed. ',
   paragraphThree: 'Check out my Resume below!',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '/static/Resume/Resume_B.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
