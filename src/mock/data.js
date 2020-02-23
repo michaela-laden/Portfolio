@@ -12,7 +12,7 @@ export const heroData = {
   title: '',
   name: 'Michaela Laden',
   subtitle: 'Web Developer & Data Analyst',
-  cta: 'Procede as Anticipated',
+  cta: 'Proceed as Anticipated',
 };
 
 // ABOUT DATA
@@ -30,67 +30,58 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'BNWHY.JPG',
+    title: 'BNWHY',
+    info: 'This project is still in the works, but it is basically a question and answer forum for my coworkers so we can ask each other questions about the many tools we use on a daily basis. With this project I am starting to get into working with a Django backend, so it has definitely been a learning experience!',
+    info2: 'Live version coming soon!',
+    url: 'https://michaela-laden.github.io/',
+    repo: 'https://github.com/michaela-laden/michaela-laden.github.io', 
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'DatingAnalysis.JPG',
+    title: 'Dating Analysis',
+    info: "This is a website I created in college to show some data that I collected from OkCupid.com. I scraped data from 400 men and created visualizations for all of the data, and then put all of my findings on this website.",
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://michaela-laden.github.io/ladenm.github.io/',
+    repo: 'https://github.com/michaela-laden/ladenm.github.io', 
   },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: uuidv1(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
+  cta: 'Feel free to send me an email!',
+  btn: 'Talk We Shall!',
   email: 'michaela.laden@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
+
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/michaela-laden/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/michaela-laden',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, 
 };
