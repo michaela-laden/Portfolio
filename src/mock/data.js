@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne:
-    "Hello, my name is Michaela. I am nearly a year out of college and trying to figure out where I belong in the vast world of technology. I am currently working as a Data Analyst for a major bank in NY. Although data is fascinating, the work isn't fulfilling. I would love to fine a position as a web developer and create elegantly functional websites for clients. Currently I specialize in Front end but I am slowly dipping my toe into the daunting world of Back end.",
+    "Hello, my name is Michaela. I am nearly a year out of college and trying to figure out where I belong in the vast world of technology. I am currently working as a Data Analyst for a major bank in NY. Although data is fascinating, the work isn't fulfilling. I would love to find a position as a web developer and create elegantly functional websites for clients. Currently I specialize in Front end but I am slowly dipping my toe into the daunting world of Back end.",
   paragraphTwo:
     'I have only done a handful of web projects, but this year I am determined to get many more projects under my belt that I can show off. This portfolio will show all of my amazing and, inevitably, not so amazing work. Hopefully, over time I will be able to see how much I have progressed. ',
   paragraphThree: 'Check out my Resume below!',
@@ -42,7 +42,7 @@ export const projectsData = [
     img: 'DatingAnalysis.JPG',
     title: 'Dating Analysis',
     info: "This is a website I created in college to show some data that I collected from OkCupid.com. I scraped data from 400 men and created visualizations for all of the data, and then put all of my findings on this website.",
-    info2: '',
+    info2: "This website isn't responsive, so it will most likely look terrible on anything but a 13 in laptop... But the project overall was really interesting and fun!",
     url: 'https://michaela-laden.github.io/ladenm.github.io/',
     repo: 'https://github.com/michaela-laden/ladenm.github.io', 
   },
@@ -60,7 +60,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: 'Feel free to send me an email!',
-  btn: 'Talk We Shall!',
+  btn: "Let's talk!",
   email: 'michaela.laden@gmail.com',
 };
 
