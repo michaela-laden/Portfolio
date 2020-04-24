@@ -32,10 +32,19 @@ export const projectsData = [
     id: uuidv1(),
     img: 'BNWHY.JPG',
     title: 'BNWHY',
-    info: 'This project is still in the works, but it is basically a question and answer forum for my coworkers so we can ask each other questions about the many tools we use on a daily basis. With this project I am starting to get into working with a Django backend, so it has definitely been a learning experience!',
+    info: 'This project is a question and answer forum that was built for my team at BNY Mellon. We use a variety of software, languages, and tools on a daily basis so I thought it would be beneficial to have a hub for questions where anyone on the team could answer and new hires could use as a reference. This site is built using HTML5, CSS3, Bootstrap, and Django Backend. Its capabilities include user registation, creating a profile, user login and logout, creating/updating/deleting a question, and creating a comment.',
     info2: 'Live version coming soon!',
-    url: 'https://michaela-laden.github.io/',
-    repo: 'https://github.com/michaela-laden/michaela-laden.github.io', 
+    url: 'https://github.com/michaela-laden/BNWHY-Project',
+    repo: 'https://github.com/michaela-laden/BNWHY-Project', 
+  },
+    {
+    id: uuidv1(),
+    img: 'glossier_twitte.png',
+    title: 'Glossier Bottle',
+    info: 'This is a replication of a perfume bottle that I own using only CSS. Mostly just for fun to play around with CSS shapes and gradients.',
+    info2: '',
+    url: 'https://github.com/michaela-laden/GlossierBottle',
+    repo: 'https://github.com/michaela-laden/GlossierBottle', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -46,15 +55,7 @@ export const projectsData = [
     url: 'https://michaela-laden.github.io/ladenm.github.io/',
     repo: 'https://github.com/michaela-laden/ladenm.github.io', 
   },
-  // {
-  //   id: uuidv1(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+
 ];
 
 // CONTACT DATA
