@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne:
-    "Hello, my name is Michaela. I am nearly a year out of college and trying to figure out where I belong in the vast world of technology. I am currently working as a Data Analyst for a major bank in NY. Although data is fascinating, the work isn't fulfilling. I would love to find a position as a web developer and create elegantly functional websites for clients. Currently I specialize in Front end but I am slowly dipping my toe into the daunting world of Back end.",
+    "Hello, my name is Michaela. I am nearly a year out of college and trying to figure out where I belong in the vast world of technology. I am currently working as a Data Analyst at Bank of New York Mellon, however, I would love to find a position as a web developer. Currently I specialize in front end but I am slowly dipping my toe into the daunting world of back end.",
   paragraphTwo:
-    'I have only done a handful of web projects, but this year I am determined to get many more projects under my belt that I can show off. This portfolio will show all of my amazing and, inevitably, not so amazing work. Hopefully, over time I will be able to see how much I have progressed. ',
+    'I have only done a handful of web projects, but this year I am determined to get many more projects under my belt that I can show off. This portfolio will show all of my progress through projects. Right now I am participating in the #100DaysofCode Challenge where I have committed to coding everyday for 100 days and posting my daily work on Twitter. Feel free to follow along throught the Twitter link in the footer of this website! ',
   paragraphThree: 'Check out my Resume below!',
   resume: '/static/Resume/Resume_B.pdf', // if no resume, the button will not show up
 };
@@ -43,7 +43,7 @@ export const projectsData = [
     title: 'Glossier Bottle',
     info: 'This is a replication of a perfume bottle that I own using only CSS. Mostly just for fun to play around with CSS shapes and gradients.',
     info2: '',
-    url: 'https://github.com/michaela-laden/GlossierBottle',
+    url: 'https://michaela-laden.github.io/GlossierBottle/',
     repo: 'https://github.com/michaela-laden/GlossierBottle', // if no repo, the button will not show up
   },
   {
@@ -78,6 +78,10 @@ export const footerData = {
       id: uuidv1(),
       name: 'github',
       url: 'https://github.com/michaela-laden',
+    },
+      {id: uuidv1(),
+      name: 'twitter',
+      url: 'https://twitter.com/michaela_laden',
     },
   ],
 };
