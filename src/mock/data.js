@@ -52,8 +52,8 @@ export const projectsData = [
     title: 'Dating Analysis',
     info: "This is a website I created in college to show some data that I collected from OkCupid.com. I scraped data from 400 men and created visualizations for all of the data, and then put all of my findings on this website.",
     info2: "This website isn't responsive, so it will most likely look terrible on anything but a 13 in laptop... But the project overall was really interesting and fun!",
-    url: 'https://michaela-laden.github.io/ladenm.github.io/',
-    repo: 'https://github.com/michaela-laden/ladenm.github.io', 
+    url: 'https://michaela-laden.github.io/Dating-Analysis/',
+    repo: 'https://github.com/michaela-laden/Dating-Analysis', 
   },
 
 ];
